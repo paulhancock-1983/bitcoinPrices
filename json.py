@@ -34,8 +34,18 @@ bitcoin_yesterday_eur = bitcoin_price_eur, yesterday
 bitcoin_yesterday = bitcoin_yesterday_usd, bitcoin_yesterday_gbp, bitcoin_yesterday_eur
 
 #printing out variable to check code runs as expected.
-for x in bitcoin_yesterday:
-    print (x)
+
+print(bitcoin_yesterday)
+"""
+#caparing prices
+if bitcoin_today > bitcoin_yesterday:
+    print('it is more')
+else:
+    print('it didnt work')
+"""
+
+#for x in bitcoin_yesterday:
+    #print (x)
 
 
 #packages_str = json.dumps(package_json, indent=2)
